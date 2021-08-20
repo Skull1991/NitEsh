@@ -3,8 +3,8 @@ from tkinter import *
 from tkinter import messagebox
 
 main = Tk()
-main.geometry("1366x768")
-main.title("Big Bazaar")
+main.geometry("715x500")
+main.title("Skull Nation")
 main.resizable(0, 0)
 
 
@@ -26,12 +26,12 @@ def emp():
 
 
 label1 = Label(main)
-label1.place(relx=0, rely=0, width=1366, height=768)
-img = PhotoImage(file="./jpn.png")
+label1.place(relx=0, rely=0, width=715, height=500)
+img = PhotoImage(file="./project1.png")
 label1.configure(image=img)
 
 button1 = Button(main,command=emp)
-button1.place(relx=0.316, rely=0.446, width=146, height=90)
+button1.place(relx=0.28, rely=0.4, width=146, height=90)
 button1.configure(relief="flat")
 button1.configure(overrelief="flat")
 button1.configure(activebackground="#ffffff")
@@ -39,12 +39,12 @@ button1.configure(cursor="hand2")
 button1.configure(foreground="#ffffff")
 button1.configure(background="#ffffff")
 button1.configure(borderwidth="0")
-img2 = PhotoImage(file="./1.png")
+img2 = PhotoImage(file="./un1.png")
 button1.configure(image=img2)
 
 
 button2 = Button(main)
-button2.place(relx=0.566, rely=0.448, width=146, height=90)
+button2.place(relx=0.566, rely=0.4, width=146, height=90)
 button2.configure(relief="flat")
 button2.configure(overrelief="flat")
 button2.configure(activebackground="#ffffff")
